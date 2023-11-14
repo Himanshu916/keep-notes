@@ -1,0 +1,33 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 6rem;
+  height: 100vh;
+  padding: 4.8rem;
+}
+
+.hero .heroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero .heroText h1 {
+  font-size: 9rem;
+  color: #fbbd06;
+  line-height: 1.6;
+}
+.hero .heroText p {
+  font-size: 3rem;
+}
+
+.hero .heroText .heroBtn {
+  width: fit-content;
+  background-color: #fbbd06;
+  color: #4c0519;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-decoration: none;
+}
